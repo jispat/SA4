@@ -1,0 +1,100 @@
+<section class="content-header">
+    <h1> Manage Masters<br><small>You can mange your all masters</small> </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li class="active">Manage Masters</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <div class="row">
+                        <div class="form-group col-md-6 col-lg-10 col-xs-12"><h3 class="box-title">City<br><small>Add/Update/Delete/List/View all City</small></h3></div><div class="form-group col-md-6 col-lg-2 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form [formGroup]="form">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>City Name</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('CityName')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="cityModel.CityName"
+                                                           placeholder="city Name *" maxlength="50" id="CityName" formControlName="CityName" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('CityName')" errorMsg="Please input your City Name">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>Zipcode</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('Pincode')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="cityModel.Pincode"
+                                                           placeholder="Zipcode *" maxlength="10" id="Pincode" formControlName="Pincode" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('Pincode')" errorMsg="Please input your Zipcode">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>Country</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('CountryId')">
+                                                    <select id="CountryId" class="form-control" (change)="RefillState()" [(ngModel)]="cityModel.State.CountryId" formControlName="CountryId">
+                                                      <option value="">Select Country</option>
+                                                      <option *ngFor="let country of countryList"  value="{{ country.CountryId }}"> {{ country.CountryName }} </option>
+                                                    </select>
+                                                    <app-field-error-display-user [displayError]="isFieldValid('CountryId')" errorMsg="Please input your Country">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>State</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('StateId')">
+                                                    <select id="StateId" class="form-control" [(ngModel)]="cityModel.StateId" formControlName="StateId">
+                                                      <option value="">Select State</option>
+                                                      <option *ngFor="let state of stateList"  value="{{ state.StateId }}"> {{ state.StateName }} </option>
+                                                    </select>
+                                                    <app-field-error-display-user [displayError]="isFieldValid('StateId')" errorMsg="Please input your State">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-4 col-xs-12">
+                                                <button type="button" class="btn btn-primary" (click)="Save()">Save</button>
+                                                <button type="button" class="btn btn-primary" (click)="Cancel()">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table id="datatable-list" class="table" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>City Name</th>
+                                        <th>Zipcode</th>
+                                        <th>State</th>
+                                        <th>Country</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

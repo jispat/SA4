@@ -1,0 +1,76 @@
+<section class="content-header">
+    <h1> Manage Masters<br><small>You can mange your all masters</small> </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li class="active">Manage Masters</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <div class="row">
+                        <div class="form-group col-md-6 col-lg-10 col-xs-12"><h3 class="box-title">Country<br><small>Add/Update/Delete/List/View all Country</small></h3></div><div class="form-group col-md-6 col-lg-2 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form [formGroup]="form">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-4 col-xs-12">
+                                                <label>Country Name</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('CountryName')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="Country.CountryName"
+                                                           placeholder="Country Name *" maxlength="50" id="CountryName" formControlName="CountryName" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('CountryName')" errorMsg="Please input your Country Name">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-4 col-xs-12">
+                                                <label>Country Code</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('CountryCode')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="Country.CountryCode"
+                                                           placeholder="Country Code *" maxlength="2" id="CountryCode" formControlName="CountryCode" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('CountryCode')" errorMsg="Please input your Country Code">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-4 col-xs-12">
+                                                <button type="button" class="btn btn-primary" (click)="Save()">Save</button>
+                                                <button type="button" class="btn btn-primary" (click)="Cancel()">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table id="datatable-list" class="table" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>Country Name</th>
+                                        <th>Country Code</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

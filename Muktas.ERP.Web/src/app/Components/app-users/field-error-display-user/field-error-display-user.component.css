@@ -1,0 +1,13 @@
+.error-msg {
+  color: #dd4b39;
+}
+.fix-error-icon {
+  top: 0px;
+  color: #dd4b39;
+  z-index: 100;
+}
+.errorMsg
+{
+  min-height:55px;
+  display: block;
+}

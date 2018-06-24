@@ -1,0 +1,7 @@
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\bin\Release\Muktas.ERP.Model.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\bin\Release\Muktas.ERP.Model.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\bin\Release\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\bin\Release\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\obj\Release\Muktas.ERP.Model.csprojResolveAssemblyReference.cache
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\obj\Release\Muktas.ERP.Model.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Model\obj\Release\Muktas.ERP.Model.pdb

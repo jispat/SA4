@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[City] (
+    [CityId]   UNIQUEIDENTIFIER CONSTRAINT [DF_City_CityId] DEFAULT (newid()) NOT NULL,
+    [StateId]  UNIQUEIDENTIFIER NOT NULL,
+    [CityName] VARCHAR (50)     NOT NULL,
+    [Pincode]  VARCHAR (10)     NULL,
+    CONSTRAINT [PK_City] PRIMARY KEY CLUSTERED ([CityId] ASC)
+);
+

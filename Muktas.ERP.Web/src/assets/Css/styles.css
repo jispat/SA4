@@ -1,0 +1,71 @@
+.customAlert
+{
+    margin-left: 35%;
+    position: fixed;
+    margin-top: 15px;
+    max-width: 500px;
+    width:35%;
+    padding: 10px !important;  
+    z-index: 9999;  
+}
+.customAlert .close{
+    right:-10px !important;
+}
+.customAlert >p
+{
+    margin-top:-10px;
+}
+.customAlert >p >span{
+    font-size: 20px;
+}
+/*.ng-invalid:not(form) 
+{
+  border:1px solid #dd4b39;
+}*/
+input.ng-pristine
+{
+    border:1px solid #d2d6de;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    /*background: 50% 50% no-repeat rgb(249,249,249);*/
+    background: url('../images/ajax-loader.gif') 50% 50% no-repeat rgb(0,0,0);
+    opacity: .3;
+}
+/*.display-error
+{
+    color:red;
+    margin-top: 25px;
+    display: block;
+    height: 25px;
+}*/
+.control-label.required:after { 
+  color: #dd4b39;
+  content: "*";
+  position: absolute;
+  margin-left: 5px;
+  top:7px;
+}
+.fa-edit
+{
+    color:#3c8dbc;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.fa-delete
+{
+    color:#dd4b39;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.fa-del-undo
+{
+    color:#00a65a;
+    padding-right: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,3 @@
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Web\obj\Debug\Muktas.ERP.Web.csprojResolveAssemblyReference.cache
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Web\obj\Debug\Muktas.ERP.Web.csprojAssemblyReference.cache
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Web\obj\Debug\Muktas.ERP.Web.csproj.CoreCompileInputs.cache

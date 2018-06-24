@@ -1,0 +1,14 @@
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.Messages.resources
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.csproj.GenerateResource.Cache
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\bin\Debug\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\bin\Debug\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.csprojResolveAssemblyReference.cache
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\bin\Debug\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\bin\Debug\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.Messages.resources
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.csproj.GenerateResource.cache
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.csproj.CoreCompileInputs.cache
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.Common\obj\Debug\Muktas.ERP.Common.pdb

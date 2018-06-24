@@ -1,0 +1,102 @@
+<section class="content-header">
+    <h1> Manage Masters<br><small>You can mange your all masters</small> </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li class="active">Manage Masters</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <div class="row">
+                        <div class="form-group col-md-6 col-lg-10 col-xs-12"><h3 class="box-title">State<br><small>Add/Update/Delete/List/View all State</small></h3></div><div class="form-group col-md-6 col-lg-2 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form [formGroup]="form">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>State Name</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('StateName')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="stateModel.StateName"
+                                                           placeholder="State Name *" maxlength="50" id="StateName" formControlName="StateName" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('StateName')" errorMsg="Please input your State Name">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>Country Code</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('StateCode')">
+                                                    <input type="text" class="form-control"
+                                                           [(ngModel)]="stateModel.StateCode"
+                                                           placeholder="State Code *" maxlength="2" id="StateCode" formControlName="StateCode" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('StateCode')" errorMsg="Please input your State Code">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>Country</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('CountryId')">
+                                                    <select id="CountryId" class="form-control" [(ngModel)]="stateModel.CountryId" formControlName="CountryId">
+                                                      <option value="">Select Country</option>
+                                                      <option *ngFor="let country of countryList"  value="{{ country.CountryId }}"> {{ country.CountryName }} </option>
+                                                    </select>
+                                                    <!--<input type="text" class="form-control"
+                                                           [(ngModel)]="stateModel.CountryId"
+                                                           placeholder="CountryId *" maxlength="2" id="CountryId" formControlName="CountryId" />-->
+                                                    <app-field-error-display-user [displayError]="isFieldValid('CountryId')" errorMsg="Please input your Country">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 col-xs-12">
+                                                <label>State GST Code</label>
+                                                <div class="input-group" [ngClass]="displayFieldCss('StateVatTinNo')">
+                                                    <input type="number" class="form-control" 
+                                                           [(ngModel)]="stateModel.StateVatTinNo"
+                                                           placeholder="State GST Code *"  id="StateVatTinNo" formControlName="StateVatTinNo" />
+                                                    <app-field-error-display-user [displayError]="isFieldValid('StateVatTinNo')" errorMsg="Please input your GST Code">
+                                                    </app-field-error-display-user>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group col-md-4 col-xs-12">
+                                                <button type="button" class="btn btn-primary" (click)="Save()">Save</button>
+                                                <button type="button" class="btn btn-primary" (click)="Cancel()">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table id="datatable-list" class="table" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>State Name</th>
+                                        <th>State Code</th>
+                                        <th>Country</th>
+                                        <th>Vat Tin #</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

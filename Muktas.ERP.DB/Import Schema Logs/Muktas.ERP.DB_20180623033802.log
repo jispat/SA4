@@ -1,0 +1,84 @@
+23-06-2018 21:08:02	This log contains information about the import schema operation into project 'Muktas.ERP.DB' on computer 'JISPAT-HP' by user 'hp pc'.
+23-06-2018 21:08:03	Import of database schema has started.
+23-06-2018 21:08:09	Gathering database credentials
+23-06-2018 21:08:09	Gathering database options
+23-06-2018 21:08:09	Gathering users
+23-06-2018 21:08:09	Gathering roles
+23-06-2018 21:08:09	Gathering application roles
+23-06-2018 21:08:09	Gathering role memberships
+23-06-2018 21:08:09	Gathering filegroups
+23-06-2018 21:08:09	Gathering full-text catalogs
+23-06-2018 21:08:09	Gathering assemblies
+23-06-2018 21:08:09	Gathering certificates
+23-06-2018 21:08:09	Gathering asymmetric keys
+23-06-2018 21:08:09	Gathering symmetric keys
+23-06-2018 21:08:09	Gathering encrypted symmetric keys
+23-06-2018 21:08:09	Gathering schemas
+23-06-2018 21:08:09	Gathering XML schema collections
+23-06-2018 21:08:09	Gathering user-defined data types
+23-06-2018 21:08:09	Gathering user-defined types
+23-06-2018 21:08:09	Gathering table types
+23-06-2018 21:08:09	Gathering unique keys for table types
+23-06-2018 21:08:09	Gathering primary keys for table types
+23-06-2018 21:08:09	Gathering indexes for table types
+23-06-2018 21:08:09	Gathering check constraints for table types
+23-06-2018 21:08:09	Gathering default constraints for table types
+23-06-2018 21:08:09	Gathering partition functions
+23-06-2018 21:08:09	Gathering partition schemes
+23-06-2018 21:08:09	Gathering functions
+23-06-2018 21:08:09	Gathering encrypted functions
+23-06-2018 21:08:09	Gathering aggregates
+23-06-2018 21:08:09	Gathering procedures
+23-06-2018 21:08:09	Gathering encrypted procedures
+23-06-2018 21:08:09	Gathering tables
+23-06-2018 21:08:09	Gathering primary keys
+23-06-2018 21:08:09	Gathering unique constraints
+23-06-2018 21:08:09	Gathering foreign keys
+23-06-2018 21:08:09	Gathering default constraints
+23-06-2018 21:08:09	Gathering check constraints
+23-06-2018 21:08:09	Gathering views
+23-06-2018 21:08:09	Gathering encrypted views
+23-06-2018 21:08:09	Gathering indexes
+23-06-2018 21:08:09	Gathering statistics
+23-06-2018 21:08:09	Gathering full-text index stoplists
+23-06-2018 21:08:09	Gathering search property lists
+23-06-2018 21:08:09	Gathering search properties
+23-06-2018 21:08:09	Gathering full-text indexes
+23-06-2018 21:08:09	Gathering column store indexes
+23-06-2018 21:08:09	Gathering spatial indexes
+23-06-2018 21:08:09	Gathering XML indexes
+23-06-2018 21:08:09	Gathering Selective XML indexes
+23-06-2018 21:08:09	Gathering encrypted triggers
+23-06-2018 21:08:09	Gathering triggers
+23-06-2018 21:08:09	Gathering encrypted and clr ddl triggers
+23-06-2018 21:08:09	Gathering ddl triggers
+23-06-2018 21:08:09	Gathering synonyms
+23-06-2018 21:08:09	Gathering defaults
+23-06-2018 21:08:09	Gathering data constraint uddt bindings
+23-06-2018 21:08:09	Gathering rules
+23-06-2018 21:08:09	Gathering data constraint uddt bindings
+23-06-2018 21:08:09	Gathering message types
+23-06-2018 21:08:09	Gathering queues
+23-06-2018 21:08:09	Gathering contracts
+23-06-2018 21:08:09	Gathering services
+23-06-2018 21:08:09	Gathering event notifications
+23-06-2018 21:08:09	Gathering remote service bindings
+23-06-2018 21:08:09	Gathering broker priorities
+23-06-2018 21:08:09	Gathering signatures
+23-06-2018 21:08:09	Gathering data compression options
+23-06-2018 21:08:09	Gathering sequence types
+23-06-2018 21:08:09	Gathering security policies
+23-06-2018 21:08:09	Gather column encryption keys
+23-06-2018 21:08:09	Gathering column master keys
+23-06-2018 21:08:09	Gathering external data sources
+23-06-2018 21:08:09	Gathering external file formats
+23-06-2018 21:08:09	Gathering external tables
+23-06-2018 21:08:09	Gathering extended properties
+23-06-2018 21:08:10	Gathering credentials
+23-06-2018 21:08:10	Gathering logins
+23-06-2018 21:08:10	Gathering server audits
+23-06-2018 21:08:10	Scanning project for duplicate elements
+23-06-2018 21:08:10	Finished duplicate element processing
+23-06-2018 21:08:10	Finished importing database.
+23-06-2018 21:08:10	A summary of the import was saved to the following location: F:\JISPAT\WORK\Temp\Sample\Muktas.ERP.DB\Import Schema Logs\Muktas.ERP.DB_20180623033802.log
+23-06-2018 21:08:10	Click Finish to continue...

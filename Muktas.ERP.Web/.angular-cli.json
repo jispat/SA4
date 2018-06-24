@@ -1,0 +1,93 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "web"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "assets/jquery-ui/themes/base/jquery-ui.min.css",
+        "assets/bootstrap/dist/css/bootstrap.min.css",
+        "assets/datatables/datatables.net-bs/css/dataTables.bootstrap.min.css",
+        "assets/datatables/datatables.net-buttons-bs/css/buttons.bootstrap.min.css",
+        "assets/datatables/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css",
+        "assets/datatables/datatables.net-responsive-bs/css/responsive.bootstrap.min.css",
+        "assets/datatables/datatables.net-scroller-bs/css/scroller.bootstrap.min.css",
+        "assets/font-awesome/css/font-awesome.min.css",
+        "assets/css/styles.css"
+
+        ,"assets/design/dist/css/skins/skin-blue.css"
+        ,"assets/design/plugins/select2/select2.css"
+        ,"assets/design/dist/css/AdminLTE.css"
+      ],
+      "scripts": [
+        "assets/jquery/dist/jquery.min.js",
+        "assets/jquery-ui/jquery-ui.min.js",
+        "assets/bootstrap/dist/js/bootstrap.min.js",
+        "assets/datatables/datatables.net/js/jquery.dataTables.min.js",
+        "assets/datatables/datatables.net-bs/js/dataTables.bootstrap.min.js",
+        "assets/datatables/datatables.net-responsive/js/dataTables.responsive.min.js",
+        "assets/datatables/datatables.net-responsive-bs/js/responsive.bootstrap.js",
+        "assets/datatables/datatables.net-buttons/js/dataTables.buttons.min.js",
+        "assets/datatables/datatables.net-buttons/js/buttons.flash.min.js",
+        "assets/datatables/datatables.net-buttons/js/buttons.html5.min.js",
+        "assets/datatables/datatables.net-buttons/js/buttons.print.min.js",
+        "assets/datatables/datatables.net-buttons-bs/js/buttons.bootstrap.min.js",
+        "assets/datatables/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js",
+        "assets/datatables/datatables.net-keytable/js/dataTables.keyTable.min.js",
+        "assets/datatables/datatables.net-scroller/js/dataTables.scroller.min.js",
+        "assets/moment/moment.js",
+        "assets/Chart.js/dist/Chart.min.js",
+        "assets/Script/common.js"
+
+        ,"assets/design/plugins/slimScroll/jquery.slimscroll.min.js"
+        ,"assets/design/plugins/fastclick/fastclick.js"
+        ,"assets/design/dist/js/app.min.js"
+        ,"assets/design/dist/js/demo.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}

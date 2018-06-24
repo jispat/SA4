@@ -1,0 +1,11 @@
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Data.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Data.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Dapper.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Model.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Model.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Dapper.xml
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\bin\Release\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\obj\Release\Muktas.ERP.Data.csprojResolveAssemblyReference.cache
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\obj\Release\Muktas.ERP.Data.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.Data\obj\Release\Muktas.ERP.Data.pdb

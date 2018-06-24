@@ -1,0 +1,92 @@
+<section class="content-header">
+    <h1> Profile<br><small>You can update your profile information.</small> </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li class="active">Profile</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <div class="row">
+                        <div class="form-group col-md-6 col-lg-10 col-xs-12"><h3 class="box-title">Profile<br><small>update your profile information</small></h3></div><div class="form-group col-md-6 col-lg-2 col-xs-12">
+                            <div class="pull-right">
+                                <a [routerLink]="['/', 'changepassword']"><button type="submit" class="btn btn-primary">Change Password</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form [formGroup]="form">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group col-md-4 col-xs-12">
+                                    <label >UserName</label>
+                                    <div class="input-group" [ngClass]="displayFieldCss('UserName')">
+                                        <input type="text" class="form-control"
+                                               [(ngModel)]="userModel.UserName"
+                                               placeholder="UserName *" maxlength="20" id="UserName" formControlName="UserName" />
+                                        <app-field-error-display-user [displayError]="isFieldValid('UserName')" errorMsg="Please input your UserName">
+                                        </app-field-error-display-user>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group col-md-4 col-xs-12">
+                                    <label >Full Name</label>
+                                    <div class="input-group" [ngClass]="displayFieldCss('FullName')">
+                                        <input type="text" class="form-control" 
+                                               [(ngModel)]="userModel.FullName"
+                                               placeholder="FullName *" maxlength="50" id="FullName" formControlName="FullName" />
+                                        <app-field-error-display-user [displayError]="isFieldValid('FullName')" errorMsg="Please input your FullName">
+                                        </app-field-error-display-user>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group col-md-4 col-xs-12">
+                                    <label >Mobile</label>
+                                    <div class="input-group" [ngClass]="displayFieldCss('Mobile')">
+                                        <input type="text" class="form-control"
+                                               [(ngModel)]="userModel.Mobile"
+                                               placeholder="Mobile *" minlength="10" maxlength="10" pattern="[0-9]*" id="Mobile" formControlName="Mobile" />
+                                        <app-field-error-display-user [displayError]="isFieldValid('Mobile')" errorMsg="Please input your Mobile">
+                                        </app-field-error-display-user>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group col-md-4 col-xs-12">
+                                    <label >Email</label>
+                                    <div class="input-group" [ngClass]="displayFieldCss('Email')">
+                                        <input type="text" class="form-control"
+                                               [(ngModel)]="userModel.Email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                                               placeholder="Email *" maxlength="250" id="Email" formControlName="Email" />
+                                        <app-field-error-display-user [displayError]="isFieldValid('Email')" errorMsg="Please input your Email">
+                                        </app-field-error-display-user>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group col-md-4 col-xs-12">
+                                    <button type="button" class="btn btn-primary" (click)="Save()">Change Password</button>
+                                    <button type="button" class="btn btn-primary" (click)="Cancel()">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,52 @@
+<div class="login-box" style="height:470px">
+    <div class="login-logo">
+        <a href="#">
+            <img src="assets/design/dist/img/logo.png">
+        </a>
+    </div>
+    <form [formGroup]="form">
+        <div class="login-box-body">
+            <div style="height: 10px">
+            </div>
+            <p class="login-box-msg">Login to start your Access</p>
+            <div class="box-body">
+
+                <div class="form-group col-md-12 col-xs-12" >
+                    <label>UserName</label>
+                    <div class="input-group" [ngClass]="displayFieldCss('UserName')">
+                        <div class="input-group-btn" style="vertical-align:top">
+                            <button type="button" class="btn btn-primary" style="height: 34px;"><i class="fa fa-user"></i></button>
+                        </div>
+                        <input type="text" class="form-control"
+                               [(ngModel)]="userModel.UserName"
+                               placeholder="UserName *" maxlength="50" id="UserName" formControlName="UserName" />
+                        <app-field-error-display [displayError]="isFieldValid('UserName')" errorMsg="Please input your UserName">
+                        </app-field-error-display>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12 col-xs-12" >
+                    <label>Password</label>
+                    <div class="input-group" [ngClass]="displayFieldCss('Password')">
+                        <div class="input-group-btn" style="vertical-align:top">
+                            <button type="button" class="btn btn-primary" style="height: 34px;"><i class="fa fa-lock"></i></button>
+                        </div>
+                        <input type="password" class="form-control"
+                               [(ngModel)]="userModel.Password"
+                               placeholder="Password *" maxlength="50" id="Password" formControlName="Password" />
+                        <app-field-error-display [displayError]="isFieldValid('Password')" errorMsg="Please input your Password">
+                        </app-field-error-display>
+                    </div>
+                </div>
+
+                <div class="box-body">
+                    <button type="button" class="btn btn-primary" (click)="loginUser()">Login</button>
+                </div>
+                <div class="form-group col-md-12 col-xs-12">
+                    <a [routerLink]="['/', 'forgotpassword']">Forgot Password</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="control-sidebar-bg"></div>
+</div>

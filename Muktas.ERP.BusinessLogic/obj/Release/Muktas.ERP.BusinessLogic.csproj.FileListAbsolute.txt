@@ -1,0 +1,13 @@
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.BusinessLogic.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.BusinessLogic.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Common.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Data.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Model.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Dapper.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Common.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Data.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Muktas.ERP.Model.pdb
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\bin\Release\Dapper.xml
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\obj\Release\Muktas.ERP.BusinessLogic.csprojResolveAssemblyReference.cache
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\obj\Release\Muktas.ERP.BusinessLogic.dll
+F:\JISPAT\WORK\Mehul\Invoice\SourceCode\Muktas.ERP.BusinessLogic\obj\Release\Muktas.ERP.BusinessLogic.pdb
